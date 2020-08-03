@@ -6,7 +6,7 @@ import parser
 import tkinter.messagebox
 
 root = Tk()
-root.title("Nithesh's Scientific Calculator")
+root.title("Scientific Calculator")
 root.configure(background="Powder blue")
 root.resizable(width=False, height=False)
 root.geometry("480x624+20+20")
@@ -295,7 +295,7 @@ btnLgamma=Button(calc, text="lgamma", width=6, height=2, font=('arial', 20, 'bol
 
 #===============================Display Text======================================================================================================================================
 
-lblDisplay=Label(calc, text="Nithesh's Scientific Calculator", font=('arial', 30, 'bold'), justify =CENTER)
+lblDisplay=Label(calc, text="Scientific Calculator", font=('arial', 30, 'bold'), justify =CENTER)
 lblDisplay.grid(row=0, column=4, columnspan=4)
 
 lblDisplay=Label(calc, text="Scientific Calculator", font=('arial', 30, 'bold'), justify =CENTER)
